@@ -1,0 +1,27 @@
+<%= erb(:create_sidebar)%>
+<div class='span9'>
+  <div class='hero-unit'>
+    <div class='container-fluid'>
+      <div class='row-fluid'>
+        <div class='span4'>
+          <form action='' method='post'>
+            <fieldset></fieldset>
+            <label for='datacenter'>Create a new Server</label>
+            <label for='name'>Cluster name:</label>
+            <input class='text' name='cluster' type='text' />
+          
+            <label for='name'>name:</label>
+            <input class='text' name='name' type='text' />
+            <label for='name'>IP Address:</label>
+            <input class='text' name='ipaddress' type='text' />
+            <label for='name'>Model:</label>
+            <input class='text' name='model' type='text' />
+              <input class='btn' type='submit' value='Send' />
+            </input>
+            <br />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

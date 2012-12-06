@@ -1,0 +1,16 @@
+LOG:  database system was shut down at 2012-03-08 13:32:03 CST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "mmay" does not exist
+FATAL:  database "mmay" does not exist
+FATAL:  database "psl_development" does not exist
+FATAL:  database "psl_development.db" does not exist
+FATAL:  database "mmay" does not exist
+FATAL:  database "psl_development" does not exist
+FATAL:  role "psl_development" does not exist
+FATAL:  database "psl_development" does not exist
+FATAL:  database "mmay" does not exist
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down

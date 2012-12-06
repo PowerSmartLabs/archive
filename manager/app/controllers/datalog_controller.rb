@@ -1,0 +1,2 @@
+class DatalogController < ApplicationController
+end

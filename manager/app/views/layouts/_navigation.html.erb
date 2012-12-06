@@ -1,0 +1,37 @@
+<%= link_to "PowerSmart Manager", root_path, :class => 'brand' %>
+<div class="nav-collapse">
+
+<ul class="nav">
+    <li>
+      <a href='/analytics'>Analytics</a>
+    </li>
+    
+    <li>
+      <a href='/charts'>Charts</a>
+    </li>
+    <li>
+      <a href='/power'>Power</a>
+    </li>
+
+<ul class='nav pull-right'>
+    <% if user_signed_in? %>
+      <li class="divider-vertical"></li>
+      <li>
+        <%= link_to('Edit account', edit_user_registration_path) %>
+      </li>
+      <li class="divider-vertical"></li>
+      <li>
+      <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+      </li>
+    <% else %>
+      <li class="divider-vertical"></li>
+      <li>
+        <%= link_to 'Login', new_user_session_path %>
+      </li>
+      <li class="divider-vertical"></li>
+      <li>
+        <%= link_to 'Sign up', new_user_registration_path %>
+      </li>
+    <% end %>
+</ul>
+</div>

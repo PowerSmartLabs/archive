@@ -1,0 +1,12 @@
+source "http://rubygems.org"
+
+gem "sinatra"
+gem "haml"
+gem "shotgun"
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'json'
+gem 'rspec'
+gem 'whenever', :require => false
+gem 'pg'
+
