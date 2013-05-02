@@ -1,1 +1,1 @@
-Threaded, semi-configurable data center load trace generator.
+Threaded, semi-configurable server/dc load trace generator.
